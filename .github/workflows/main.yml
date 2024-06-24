@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: '* 8 * * *' # 8am GMT is 11am MSK
+    - cron: '0 8 * * *' # 8am GMT is 11am MSK
   workflow_dispatch:
 
 jobs:
